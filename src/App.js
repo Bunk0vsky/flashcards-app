@@ -805,7 +805,7 @@ const sampleFlashcards = [
 ];
 
 function App() {
-  const [flashcards, setFlashcards] = useState(sampleFlashcards);
+  const [flashcards] = useState(sampleFlashcards);
   const [currentFlashcardIndex, setCurrentFlashcardIndex] = useState(0);
   const [history, setHistory] = useState([]);
   const [learnedFlashcards, setLearnedFlashcards] = useState([]);

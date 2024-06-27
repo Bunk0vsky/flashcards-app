@@ -868,14 +868,9 @@ DELETE - Usuwa zasób.<br>`,
   },
   {
     id: 135,
-    question: "Co to jest yarn?",
+    question: "Róznice pomiędzy inline <-> inline-block",
     answer:
       "display: inline – sprawia, że element będzie wyświetlany jako element liniowy. display: block – element zostanie wyświetlony jako element blokowy. display: inline-block – łączy cechy elementów liniowych i blokowych.",
-  },
-  {
-    id: 136,
-    question: "Róznice pomiędzy inline <-> inline-block",
-    answer: "Alternatywny do `npm",
   },
 ];
 

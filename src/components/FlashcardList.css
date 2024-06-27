@@ -1,0 +1,8 @@
+/* src/components/FlashcardList.css */
+
+.flashcard-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}

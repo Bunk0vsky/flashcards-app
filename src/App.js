@@ -781,26 +781,101 @@ const sampleFlashcards = [
   },
   {
     id: 129,
-    question:
-      "Jakie mogą być typy inputów, główne atrybuty inputa, a oprócz tego te atrybuty które walidują go ?",
-    answer: `<input type="text"> <br>
-    <input type="text" value="Wartość wpisana przez Nas"> <br>
-    <input type="password"> <br>
-    <input type="button"> <br>
-<input type="color"> <br>
-<input type="date"> <br>
-<input type="datetime"> <br>
-<input type="DatetimeLocal"> <br>
-<input type="FileUpload"> <br>
-<input type="hidden"> <br>
-<input type="image"> <br>
-<input type="month"> <br>
-<input type="range"> <br>
-<input type="search"> <br>
-<input type="time"> <br>
-<input type="url"> <br>
-<input type="week"> <br>
+    question: "Jakie mogą być typy inputów?",
+    answer: ` Podstawowe typy : text, password, , submit, date, radio <br>
+    Mniej używane typy: button, color, datetime, DatetimeLocal, FileUpload, hidden, image, month, range, search, time, url, week <br>    `,
+  },
+  {
+    id: 130,
+    question: "Główne atrybuty inputa?",
+    answer: `<ul>
+    <li>accept: przy pliku(audio, video image)</li>
+    <li>alt: alternatywny tekst przy type = image</li>
+    <li>autocomplete</li>
+    <li>autofocus: automatyczne aktywowanie elementu po załadowaniu strony</li>
+    <li>checked: element po wczytaniu strony jest domyślnie zaznaczony type="checkbox", type="radio")</li>
+    <li>disable: wyłączony element</li>
+    <li>form: Służy do określania listy formularzy, z którymi związany jest element input </li>
+    <li>height: Określa wysokość w pikselach obrazu elementów z atrybutem type="image" </li>
+    <li>list: element zawierający listę opcji do wyboru</li>
+    <li>min/max: minimalna/maksymalna wartość elementu</li>
+    <li>minlength/maxlenght: minimalna/maksymalna liczba znaków</li>
+    <li>name: nazwa elementu</li>
+    <li>pattern: wyrażenie wg którego sprawdzana jest zawartość elementu</li>
+    <li>placeholder: tekst wyświetlany w polu tekstowym</li>
+    <li>readonly: wartość elementu można tylko odczytać</li>
+    <li>required: obowiązkowe wypełnienie elementu</li>
+    <li>src: adres URL obrazu graficznego type="image"</li>
+    <li>step: skok wartości elementu</li>
+    <li>title: tytuł</li>
+    <li>value: wartość elementu</li>
+    <li>width: szerokość elementu w pikselach elementów z atrybutem type="image"</li>
+</ul>`,
+  },
+  {
+    id: 131,
+    question: "Jakie mamy metody API?",
+    answer: `POST -	Tworzy nowy zasób.<br>
+GET -	Pobiera zasób.<br>
+PUT -	Aktualizuje istniejący zasób.<br>
+DELETE - Usuwa zasób.<br>`,
+  },
+  {
+    id: 132,
+    question: "Jakie mamy pseudo-klasy w CSS?",
+    answer: `Pomagają nam na zmianę wyglądu elementu HTML np. po najechaniu na niego myszką, po kliknięciu na nim<br>
+    <ul>
+      <li>a:active</li>
+      <li>input:checked</li>
+      <li>input:disabled</li>
+      <li>p:first-child</li>
+      <li>p:first-of-type</li>
+      <li>input:focus</li>
+      <li>a:hover</li>
+      <li>p:last-child</li>
+      <li>a:link</li>
+      <li>p:nth-child(2)</li>
+      <li>p:nth-last-child(2)</li>
+      <li>a:visited</li>
+    </ul>
     `,
+  },
+  {
+    id: 133,
+    question: "Jakie mamy pseudo-elementy w CSS?",
+    answer: `Tymi częściami są: piersza litera, pierwszy wiersz, zaznaczenie, wstawka przed elementem, wstawka po elemencie.<br>
+    <ul>
+      <li>p::after</li>
+      <li>p::before</li>
+      <li>p::first-letter</li>
+      <li>p::first-line</li>
+      <li>p::selection</li>
+    </ul>
+    `,
+  },
+  {
+    id: 134,
+    question: "Co to jest yarn?",
+    answer: `Kombinator tak naprawdę określa relację w drzewie węzłów między wskazywanymi elementami po obu stronach kombinatora<br>
+    <ul>
+    <li>Kombinator potomka:[ E  F ] - Element F będący potomkiem elementu E.</li>
+    <li>Kombinator dziecka: [ E > F ] -	Element F będący dzieckiem elementu E.</li>
+    <li>Kombinator brata następującego: [ E + F ] - Element F będący bratem następującym elementu E.</li>
+    <li>Kombinator następnika bratowego: [ E ~ F ] - Element F będący następnikiem bratowym elementu E.</li>
+    <li>Kombinator kolumny: [ E || F ] - Element F będący komórką w elemencie E określającym kolumnę.</li>
+    <li>Kombinator referencji: [ E /ref/ F ] - Element F jawnie powiązany (np. atrybutem) z elementem E.</li>
+    </ul>`,
+  },
+  {
+    id: 135,
+    question: "Co to jest yarn?",
+    answer:
+      "display: inline – sprawia, że element będzie wyświetlany jako element liniowy. display: block – element zostanie wyświetlony jako element blokowy. display: inline-block – łączy cechy elementów liniowych i blokowych.",
+  },
+  {
+    id: 136,
+    question: "Róznice pomiędzy inline <-> inline-block",
+    answer: "Alternatywny do `npm",
   },
 ];
 

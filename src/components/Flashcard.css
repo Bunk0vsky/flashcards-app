@@ -1,8 +1,8 @@
 /* src/components/Flashcard.css */
 
 .flashcard {
-  width: 600px;
-  height: 200px;
+  width: 700px;
+  height: 500px;
   border: 1px solid #ccc;
   border-radius: 5px;
   perspective: 1000px;
